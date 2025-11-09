@@ -1,13 +1,21 @@
+@import "tailwindcss";
+
 body,
 html {
   height: 100%;
   width: 100%;
-  background-color: rgb(11, 11, 11);
-  color: white;
+  background-color: var(--background-color);
+  cursor: none;
+}
+:root{
+  --primary-font: "Chewy", system-ui;
+  --primary-color: #6C63FF;
+  --background-color: #1E1E2E;
 }
 * {
-  margin: 0;
-  padding: 0;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  /* font-style: normal; */
 }
 .Headingtest{
   position: absolute;
